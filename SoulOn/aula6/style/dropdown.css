@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+.principal li{
+    position: relative;
+    float: left;
+    display: block;
+    padding: 2px 2px;
+    margin-right: 5px;
+    background-color: salmon;
+}
+
+.principal li:hover, ul li .sublista li:hover{
+    border: 2px solid white;
+    background-color: violet;
+    color: white;
+}
+
+.principal li .sublista{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.principal li:hover .sublista{
+    display: block;
+    z-index: 1;
+}
+
+.principal li .sublista li{
+    background-color: turquoise;
+    border: 2px solid white;
+    width: 150px;
+    display: block;
+}
