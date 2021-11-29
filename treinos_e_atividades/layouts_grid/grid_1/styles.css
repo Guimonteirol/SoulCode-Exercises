@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid_1{
+    display: grid;
+    background-color: white;
+    grid-template: 
+    "header header header" 10%
+    "nav article aside" 80%
+    "nav footer footer"10%/
+    15% 70% 15%;
+    height: 100vh;
+    gap: 5px;
+}
+
+#grid_1 header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+#grid_1 nav{
+    grid-area: nav;
+    background-color: brown;
+}
+
+#grid_1 article{
+    grid-area: article;
+    background-color: coral;
+}
+
+#grid_1 aside{
+    grid-area: aside;
+    background-color: darkblue;
+}
+
+#grid_1 footer{
+    grid-area: footer;
+    background-color: darkgreen;
+}

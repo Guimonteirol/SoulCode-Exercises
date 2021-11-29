@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+#grid_3 > div{
+    background-color: gold;
+}
+
+#grid_3{
+    display: grid;
+    height: 100vh;
+    gap: 5px;
+    grid-template: 
+    "t1 t1 t1 t1" 50%
+    "t2 t3 t4 t5"
+    "t2 t6 t4 t5"
+    "t2 t6 t7 t5"
+    "t2 t6 t8 t9";
+    color: white;
+    font-size: 30px;
+}
+
+#t1{
+    grid-area: t1;
+}
+
+#t2{
+    grid-area: t2;
+}
+
+#t3{
+    grid-area: t3;
+}
+
+#t4{
+    grid-area: t4;
+}
+
+#t5{
+    grid-area: t5;
+}
+
+#t6{
+    grid-area: t6;
+}
+
+#t7{
+    grid-area: t7;
+}
+
+#t8{
+    grid-area: t8;
+}
+
+#t9{
+    grid-area: t9;
+}

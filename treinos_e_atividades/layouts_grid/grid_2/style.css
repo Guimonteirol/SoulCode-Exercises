@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+#grid_2{
+    display: grid;
+    height: 100vh;
+    gap:5px;
+    grid-template:
+    "header header"15%
+    "aside article" 1fr
+    "nav article" 1fr
+    "nav footer" 15%/
+    20% 80%;
+}
+
+#header{
+    grid-area: header;
+    background-color: yellow;
+}
+
+#aside{
+    grid-area: aside;
+    background-color: yellow;
+}
+
+#navbar{
+    grid-area: nav;
+    background-color: yellow;
+}
+
+#article{
+    grid-area: article;
+    background-color: yellow;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: yellow;
+}

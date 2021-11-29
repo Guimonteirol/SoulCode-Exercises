@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+#grid_3 > div{
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid_3{
+    display: grid;
+    height: 100vh;
+    gap: 5px;
+    grid-template: 
+    "t1 t1 t1 t1" 40%
+    "t2 t3 t4 t4" 15%
+    "t2 t5 t5 t6" 15%
+    "t2 t7 t8 t9" 15%
+    "t2 t10 t10 t10" 15%;
+}
+
+#t1{
+    grid-area: t1;
+}
+
+#t2{
+    grid-area: t2;
+}
+
+#t3{
+    grid-area: t3;
+}
+
+#t4{
+    grid-area: t4;
+}
+
+#t5{
+    grid-area: t5;
+}
+
+#t6{
+    grid-area: t6;
+}
+
+#t7{
+    grid-area: t7;
+}
+
+#t8{
+    grid-area: t8;
+}
+
+#t9{
+    grid-area: t9;
+}
+
+#t10{
+    grid-area: t10;
+}
+
