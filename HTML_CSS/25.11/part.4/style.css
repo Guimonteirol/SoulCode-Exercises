@@ -1,0 +1,48 @@
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+}
+
+#position_fixed{
+    position: fixed;
+    bottom: 0px;
+}
+
+#position_fixed1{
+    position: fixed;
+    top: 0px;
+}
+
+#position_fixed2{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#position_fixed3{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#div_relative{
+    /*QUANDO DELCARO ESSA DIV COMO RELATIVE
+    O ELEMEBTO ABSOLUTE SEGUE AS PROPORÇÕE DELA*/
+    position: relative;
+    text-align: center;
+}
+
+#img_absolute{
+    position: absolute;
+    top: 0px;
+}
+
+#img_primavera{
+    position: absolute;
+    top: 0px;
+}
+
+header{
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+span{
+    margin-bottom: 30px;
+}
+
+
+header{
+    background-color: #faa2e4;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+div.conteudo{
+    width: 660px;
+   border-radius: 25px;
+   background-color:#faa2e48e ;
+    opacity: 0.8;
+    padding: 18px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+ul, ol, p{
+    color: black;
+    list-style: none;
+}
+
+p{
+    font-style: italic;
+}
+
+ol > li{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    padding-top: 10px;
+}
+
+img{
+    width: 400px;
+    padding: 18px;
+}
+
+#risco{
+    text-decoration: line-through;
+}
+
+ul#ingredientes li{
+    color: green;
+}
+
+ul#ingredientes li.opcional{
+    color:blue ;
+}
+
+img{
+    border: 4px solid pink;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.294);
+}
+
+body{
+    border: 10px solid pink;
+}
+
+a{
+    color:black;
+}
+
+section#imgs figure{
+    margin: 30px;
+}
+
+h1{
+    font-family: 'Estonia', cursive;
+    font-size: 50px;
+}
+
+#titulo h2{
+    font-family: 'Estonia', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}

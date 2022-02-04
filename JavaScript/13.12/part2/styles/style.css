@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form div{
+    margin: 8px 0;
+}
+
+/*SELETOR POR ATIBUTO */
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    padding: 5px;
+    border: none;
+    border-bottom:1px solid black ;
+    display: block;
+    width: 100%;
+}
+
+
+
+button{
+    border: none;
+    padding: 6px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(200, 188, 188);
+}
+
+button:hover{
+    box-shadow: grey 2px 2px;
+}
+
+small.invalid{
+    color: red;
+}
+
+input.invalid{
+    border: 1px solid red;
+    outline: 2px solid pink;
+}

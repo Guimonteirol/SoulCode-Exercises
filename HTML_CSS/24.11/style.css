@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/moon1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center ;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 10px solid rgb(146, 3, 3);
+}
+
+header{
+    background: black;
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+}
+
+section{
+    width: 680px;
+    margin: 0 auto;
+}
+
+.conteudo{
+    margin-top: 20px;
+}
+
+section.cards{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.246);
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 20px ;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(146, 3, 3);
+}
+.cards img{
+    width: 200px;
+    border-radius: 500px;
+    float: left;
+    margin: 10px;
+}
+
+img#img_topo{
+    border-left: 2px solid rgb(146, 3, 3);
+    border-right: 2px solid rgb(146, 3, 3);
+    border-width: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 20px;
+}
+
+#titulo{
+    text-align: center;
+    padding: 20px;
+    border-bottom:2px solid rgb(146, 3, 3) ;
+    border-right: 2px solid rgb(146, 3, 3);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.418);
+    width: 360px;
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
