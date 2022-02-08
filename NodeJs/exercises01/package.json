@@ -1,0 +1,15 @@
+{
+  "name": "exercises01",
+  "version": "1.0.0",
+  "description": "Exercícios práticos\r Crie um módulo produto que exporta uma classe Produto.\r Crie um módulo porcentagem, dentro crie uma função exportada para formatar números em porcentagem. Exemplo: porcentagem(0.5) -> 50%\r No módulo database crie um array de objetos da classe Produto.\r Crie um módulo aluno que exporta uma classe Aluno.\r Crie um módulo acadêmico com uma classe com as seguintes funcionalidades: Listar aprovados, listar reprovados, calcular média de um aluno.\r No módulo database crie um array de alunos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
