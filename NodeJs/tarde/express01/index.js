@@ -2,8 +2,9 @@ const express = require('express');
 
 const app = express();
 
+const produtos = [];
 const users = [];
-
+/*
 app.get('/', (req, res) =>{
     res.send(`
     <h1>Hello, Node!</h1>
@@ -33,7 +34,7 @@ app.get("/usuario", (req, res)=>{
 })
 
 //localhost:3000/usuario/enviar?nome=gui&idade=20
-app.get("/usuario/enviar", (req, res)=>{s
+app.get("/usuario/enviar", (req, res)=>{
     console.log(req.query); // objeto com parâmetros de busca
     const { nome, idade } = req.query;
     users.push({ nome, idade});
@@ -55,6 +56,37 @@ app.get("/usuario/:index", (req, res)=>{
 
     console.log(index);
     res.send();
+})*/
+
+
+
+app.get('/', (req, res)=>{
+    res.send(
+        `<h1>Adicione Produtos</h1>
+        <form action="/produto/enviar" method="GET" >
+        <input name="nome" placeholder= "Nome" required/>
+        <button>Enviar</button>
+        </form>`
+    )
+})
+
+app.get('/produto/enviar', (req, res)=>{
+    const {nome} = req.query;
+    produtos.push({nome});
+    console.log(produtos);
+    res.send(
+        `<h1>O produto adicionado foi: ${nome}</h1>`
+    )
+})
+
+app.get('/produtos', (req, res)=>{
+    let html = `<ul>`
+    produtos.forEach((p)=>{
+        html += `<li>${p.nome}</li>`
+    })
+    html += `</ul>`
+    
+    res.send(html)
 })
 
 
