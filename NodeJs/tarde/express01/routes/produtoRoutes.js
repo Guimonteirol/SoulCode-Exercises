@@ -17,12 +17,17 @@ router.post('/produto/enviar', (req, res)=>{
     produtos.push({nome});
     console.log(produtos);
     res.send(
-        `<h1>O produto adicionado foi: ${nome}</h1>`
+        `<h1>O produto adicionado foi: ${nome}</h1>
+        <a href="/">Adicione mais produtos</a>
+        <a href="/produtos">Lista de produtos</a>
+        `
     )
 })
 
 router.get('/produtos', (req, res)=>{
-    let html = `<ul>`
+    let html = `
+    <a href="/">Adicione mais produtos</a>
+    <ul>`
     produtos.forEach((p)=>{
         html += `<li>${p.nome}</li>`
     })
